@@ -1,0 +1,6 @@
+.test {
+  display: block; }
+  .test-pc {
+    display: inline; }
+    .test-pc-fix {
+      display: table; }

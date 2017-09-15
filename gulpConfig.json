@@ -1,0 +1,14 @@
+{
+	"browserSync": {
+		"host": "",
+		"proxy": "http://localhost/pavels/cdi/",
+		"open": "external",
+		"port": 3000,
+		"notify": {
+			"styles": {
+				"top": "auto",
+				"bottom": "0"
+			}
+		}
+	}
+}

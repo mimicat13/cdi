@@ -1,0 +1,7 @@
+<script	type="text/javascript" src="js/rand/Mash.js"></script>	
+<script	type="text/javascript" src="js/rand/MRG32k3a.js"></script>	
+
+var r				= MRG32k3a(new Date()); /*date as seed*/
+r.fract53() /*inretval from 0 to 1*/
+
+

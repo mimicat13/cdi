@@ -1,0 +1,9 @@
+.test{
+	display:block;
+	&-pc{
+		display:inline;
+		&-fix{
+			display:table;
+		}
+	}
+}

@@ -1,0 +1,81 @@
+@font-face {font-family: 'Roboto-Regular';
+	src: url('fonts/roboto/Roboto-Regular.eot');
+	src: url('fonts/roboto/Roboto-Regular.eot?#iefix') 
+		format('embedded-opentype'),url('fonts/roboto/Roboto-Regular.woff2') 
+		format('woff2'),url('fonts/roboto/Roboto-Regular.woff') 
+		format('woff'),url('fonts/roboto/Roboto-Regular.ttf') 
+		format('truetype');
+	font-weight: normal;font-style: normal;
+}
+
+@font-face {font-family: 'Roboto-Medium';
+	src: url('fonts/roboto/Roboto-Medium.eot');
+	src: url('fonts/roboto/Roboto-Medium.eot?#iefix') 
+		format('embedded-opentype'),url('fonts/roboto/Roboto-Medium.woff2') 
+		format('woff2'),url('fonts/roboto/Roboto-Medium.woff') 
+		format('woff'),url('fonts/roboto/Roboto-Medium.ttf') 
+		format('truetype');
+	font-weight: normal;font-style: normal;
+}
+
+@font-face {font-family: 'Roboto-Light';
+	src: url('fonts/roboto/Roboto-Light.eot');
+	src: url('fonts/roboto/Roboto-Light.eot?#iefix') 
+		format('embedded-opentype'),url('fonts/roboto/Roboto-Light.woff2') 
+		format('woff2'),url('fonts/roboto/Roboto-Light.woff') 
+		format('woff'),url('fonts/roboto/Roboto-Light.ttf') 
+		format('truetype');
+	font-weight: normal;font-style: normal;
+}
+
+@font-face {font-family: 'Roboto-Thin';
+	src: url('fonts/roboto/Roboto-Thin.eot');
+	src: url('fonts/roboto/Roboto-Thin.eot?#iefix') 
+		format('embedded-opentype'),url('fonts/roboto/Roboto-Thin.woff2') 
+		format('woff2'),url('fonts/roboto/Roboto-Thin.woff') 
+		format('woff'),url('fonts/roboto/Roboto-Thin.ttf') 
+		format('truetype');
+	font-weight: normal;font-style: normal;
+}
+
+@font-face {font-family: 'Roboto-Bold';
+	src: url('fonts/roboto/Roboto-Bold.eot');
+	src: url('fonts/roboto/Roboto-Bold.eot?#iefix') 
+		format('embedded-opentype'),url('fonts/roboto/Roboto-Bold.woff2') 
+		format('woff2'),url('fonts/roboto/Roboto-Bold.woff') 
+		format('woff'),url('fonts/roboto/Roboto-Bold.ttf') 
+		format('truetype');
+	font-weight: normal;font-style: normal;
+}
+
+
+/*
+	Используйте WOFF 2.0 в тех браузерах, которые его поддерживают.
+	Добавьте WOFF для большинства браузеров.
+	Применяйте TTF в устаревших браузерах Android (для версий до 4.4).
+	Добавьте EOT для поддержки устаревших версий IE (до IE9).
+
+	Default Font Array:
+		font-family: -apple-system, 
+			BlinkMacSystemFont, 
+			"Segoe UI", 
+			Roboto, 
+			Oxygen-Sans, 
+			Ubuntu, 
+			Cantarell, 
+			"Helvetica Neue", 
+			sans-serif;
+
+	Задавай значения в em, если свойства масштабируются относительно font-size;
+	Во всех остальных случаях задавай значения в rem.
+
+	@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+	@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+	@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+
+	Размер шрифта по умолчанию для большинства браузеров равен 16 пикселям, поэтому мы можем использовать следующее преобразование: CSS
+	7mm = 44px = 2.75rem
+		.touch { height: 2.75rem; }
+	11mm = 69px = 4.3125rem
+		.touch-big { height: 4.3125rem; }
+*/

@@ -1,0 +1,13 @@
+@import "../../../libs/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../../libs/css-hamburgers/_sass/hamburgers/hamburgers.scss";
+
+/*bootstrap equal columns adder*/
+.row-equal {
+	display: flex;
+}
+.row-equal > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
+
+@import "_fonts";
